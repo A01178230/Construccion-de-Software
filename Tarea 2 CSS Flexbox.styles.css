@@ -1,0 +1,29 @@
+/* 1. Centrar la navegación vertical y horizontalmente usando Flexbox */
+body {
+  height: 100vh;       /* Ocupa la altura total de la ventana */
+  margin: 0;           /* Quita márgenes por defecto */
+  display: flex;       
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+}
+
+/* 2. Quitar las viñetas de la lista y alinear elementos */
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+
+  display: flex; 
+  gap: 2rem; /* Espacio uniforme entre los elementos */
+}
+
+/* 3. Estilo base de los enlaces */
+a {
+  text-decoration: none; /* Quitar subrayado */
+  color: black;          /* Color negro por defecto */
+}
+
+/* 4. Estilo al pasar el mouse (hover) */
+a:hover {
+  color: blue;           /* Color azul al pasar el mouse */
+}
